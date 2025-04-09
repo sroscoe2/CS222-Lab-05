@@ -1,6 +1,6 @@
 # Programming II
 
-## Lab 4: Employee
+## Lab 5: Employee
 
 ### Employee Database
 
@@ -9,7 +9,7 @@ In this lab, you will practice topics related to inheritance, including practici
 ### Attribution
 
 This lab is used in CS 222 at Saint Mary's College of California.
-This lab uses the same starter code, test cases, and images as Dr. Chris Bourke's "Lab 05", which is used in CSCE 156 (Computer Science II) at the University of Nebraska-Lincoln. In 2025, Dr. Sarah Roscoe rewrote the instructions.
+This lab uses the same starter code, test cases, and images as Dr. Chris Bourke's "[Lab 05](https://github.com/cbourke/CSCE156-Lab05)", which is used in CSCE 156 (Computer Science II) at the University of Nebraska-Lincoln. In 2025, Dr. Sarah Roscoe rewrote the instructions.
 
 ### Important Note
 
@@ -23,7 +23,7 @@ This lab also contains images of UML diagrams. Refer back to Lab 4 for UML diagr
 
 ### Employee Hierarchy
 
-2. *Some* starter code in the `main` package has been provided for you, with the following files:
+*Some* starter code in the `main` package has been provided for you, with the following files:
 
 - `Employee.java`
 - `HourlyEmployee.java`
@@ -34,7 +34,7 @@ This lab also contains images of UML diagrams. Refer back to Lab 4 for UML diagr
 However, these files are completely empty. You will populate them according to the diagram below.
 **Important note!** You must implement the methods and fields of the diagram *exactly*. No additional class members will be permitted.  
 
-3. Study the following diagram. Discuss with your partner the following:
+2. Study the following diagram. Discuss with your partner the following:
 
 - How many classes are present? How many with starter code are provided? Which will you need to create yourselves?
 - What other structures are present that you need to create?
@@ -53,16 +53,16 @@ Resources for you that may be helpful:
 - [More on abstract classes](#about-abstract-classes)
 - [Information on net pay/gross pay/taxes](#about-gross-pay--taxes)
 
-4. Create the `Payable` interface and implement per the diagram. 
-5. Implement `Employee.java` per the diagram. 
-6. Implement `SalaryEmployee.java` per the diagram.
-7. Implement `HourlyEmployee.java`, `Staff.java`, and `Temporary.java` per the diagram.
-8. Create & implement `Supplier.java` per the diagram.
+3. Create the `Payable` interface and implement per the diagram. 
+4. Implement `Employee.java` per the diagram. 
+5. Implement `SalaryEmployee.java` per the diagram.
+6. Implement `HourlyEmployee.java`, `Staff.java`, and `Temporary.java` per the diagram.
+7. Create & implement `Supplier.java` per the diagram.
 
 ### Finishing Up
 
-9. Run `PayrollTests.java` and ensure all test cases pass.
-10. Zip your project folder and turn it into Canvas. Refer to Lab 1 if you need a refresher for how to do so.
+8. Run `PayrollTests.java` and ensure all test cases pass.
+9. Zip your project folder and turn it into Canvas. Refer to Lab 1 if you need a refresher for how to do so.
 
 ## Explanations
 
