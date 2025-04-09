@@ -51,9 +51,9 @@ Resources for you that may be helpful:
 - [More on inheritance](#inheritance)
 - [More on interfaces](#about-interfaces)
 - [More on abstract classes](#about-abstract-classes)
-- [Information on net pay/gross pay/taxes](#about-gross-pay--taxes)
+- [Information on gross pay, net pay, & taxes](#about-gross-pay--taxes)
 
-3. Create the `Payable` interface and implement per the diagram. 
+3. Create the `Payable` interface and implement per the diagram.
 4. Implement `Employee.java` per the diagram. 
 5. Implement `SalaryEmployee.java` per the diagram.
 6. Implement `HourlyEmployee.java`, `Staff.java`, and `Temporary.java` per the diagram.
@@ -125,14 +125,14 @@ If one class `C` implements an interface, that method will be inherited among al
 
 Everyone who works has a gross pay, that is, the pay before any income taxes are taken out. Most workers have taxes that are taken out of their gross pay. Consult the following table for specific information per the kind of employee.
 
-| Kind of Employee    | Type Name   | Gross Pay                                                                                      | Taxes                                                            | Net Pay                                                         | Other/Notes                                                                                     |
-| ------------------- | ----------- | ---------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| Employee (general)  | n/a         | n/a                                                                                            | n/a                                                              | Gross pay minus taxes                                           | All employees have employee ID, first & last name, job title                                    |
-| Salaried            | `Salary`    | Weekly salary                                                                                 | 20% each pay period                                                    | Calculated gross pay, minus taxes, with post-tax $100 benefit allowance | All salaried employees have a base annual salary that is divided equally among all weeks of the year.                                               |
-| Hourly (general)    | n/a         | Hourly pay rate multiplied by hours worked.<br>(For example, $15/hour rate for 5 hours worked in the week) | n/a                                                              | see Employee (general)                                          | Hourly employees have a per-hour pay rate, and a sum of hours worked each week.                                                      |
-| Hourly -- Staff     | `Staff`     | see hourly (general)                                                                           | 15%                                                             | see Employee (general)                                          | n/a                                                                                             |
-| Hourly -- Temporary | `Temporary` | see hourly (general)                                                                           | 0% (they're employed through external agency which covers taxes) | see Employee (general)                                          | n/a                                                                                             |
-| Supplier            | n/a         | n/a                                                                                            | n/a                                                              | n/a                                                             | Don't work for the company, so not employees. But they do need to be paid their **amount due**. |
+| Kind of Employee | Gross Pay | Taxes | Net Pay | Other/Notes |
+|---|---|---|---|---|
+| Employee (general) | n/a | n/a | In general, net pay is: gross pay minus taxes | All employees have employee ID, first & last name, name (e.g. "John Doe"), and job title. |
+| Salaried | Weekly salary | 20% each pay period | Gross pay, minus taxes, with post-tax $100 benefit allowance | All salaried employees have a base annual salary that is divided equally among all weeks of the year. |
+| Hourly (general) | Hourly pay rate multiplied by hours worked. (For example, $15/hour rate for 5 hours worked in the week) | n/a | see Employee (general) | Hourly employees have a per-hour pay rate, and a sum of hours worked each week. |
+| Hourly -- Staff | see hourly (general) | 15% each pay period | see Employee (general) | n/a |
+| Hourly -- Temporary | see hourly (general) | 0% (they're employed through external agency which covers taxes) | see Employee (general) | n/a |
+| Supplier | n/a | n/a | n/a | Don't work for the company, so not employees. But they do need to be paid their **amount due**. |
 
 [Go back to the instructions](#employee-hierarchy)
 
